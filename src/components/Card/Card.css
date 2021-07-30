@@ -1,0 +1,99 @@
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 41.8em;
+    width: 100%;
+    background-color:#2D2E36;
+}
+
+.card-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 42rem;
+    background-color: #383A45;
+    padding: 30px 30px 30px 27px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    transition: 0.1s;
+    -webkit-transition: 0.1s;
+    -moz-transition: 0.1s;
+    -ms-transition: 0.1s;
+    -o-transition: 0.1s;
+    animation: ease-in;
+    -webkit-animation: ease-in;
+}
+
+.card-container:hover{
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5); 
+    transform: scale(1.02);
+    -webkit-transform: scale(1.02);
+    -moz-transform: scale(1.02);
+    -ms-transform: scale(1.02);
+    -o-transform: scale(1.02);
+}
+
+.text-container{
+    width: 23em;
+
+}
+
+.text-container span{
+    color: #8D91A6;
+}
+
+.text-container p{
+    padding-right: 5px;
+    color: #8D91A6;
+    margin-bottom: 30px;
+
+}
+
+.text-container h1 {
+    margin: 0;
+    margin-bottom: 30px;
+    color: #FFF;
+}
+
+img{
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+@media  screen and (max-width: 1242px) {
+        
+    .card-container{
+        width: 18rem;
+        flex-direction: column;
+        align-items: center;       
+        padding: 25px;
+    }
+
+    .text-container{
+        width: 18em;
+    
+    }
+
+    img {
+        margin-top: 12.5px;
+        margin-bottom: 25px;
+        border-radius: 5px;
+        transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        -o-transform: scale(1.1);
+    }
+
+    .text-container p{
+    padding: 0;
+    }
+}
